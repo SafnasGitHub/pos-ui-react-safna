@@ -1,0 +1,51 @@
+.product-table-container {
+  padding: 24px 32px;
+  background: #f9f9f9;
+  min-height: 600px;
+}
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.product-table th, .product-table td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+.product-table th {
+  background: #f4f6f8;
+  font-weight: 600;
+}
+.product-table tr.selected {
+  background: #e6f7ef;
+}
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+}
+.status-badge.in-stock {
+  background: #e6f7ef;
+  color: #1abc9c;
+  border-color: #1abc9c;
+}
+.status-badge.not-available {
+  background: #fff0f0;
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+.action-btn {
+  background: #f4f6f8;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+} 

@@ -1,0 +1,36 @@
+.filters-container {
+  background: #fff;
+  padding: 18px 32px 10px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.filters-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.filters-row input,
+.filters-row select {
+  padding: 7px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.add-product-btn {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.refresh-btn {
+  background: #e6f7ef;
+  color: #1abc9c;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+} 
